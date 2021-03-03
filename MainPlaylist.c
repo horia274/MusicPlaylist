@@ -50,7 +50,8 @@ int main(int argc, char *argv[]) {
 
 			// formez numele fisierului din care extrag datele despre melodie
 			name_song = malloc((strlen(mel) + DIRECTORY)*sizeof(char));
-			snprintf(name_song, sizeof(mel), "./songs/%s", mel);
+			strcpy(name_song, "./songs/");
+			strcat(name_song, mel);
 
 			// deschid aceste fisier
 			if((song = fopen(name_song, "rb")) == NULL) {
