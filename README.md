@@ -6,29 +6,29 @@ Proiectul simuleaza un playlist cu diverse melodii asupra caruia se pot executa
 diferite operatii, cum ar fi:
 
 * de adaugare:
-1. ADD_FIRST <nume melodie> → adaugă o melodie la începutul listei
-2. ADD_LAST <nume melodie> → adaugă o melodie la finalul listei
-3. ADD_AFTER <nume melodie> → adaugă o melodie după cursor
+  1. ADD_FIRST <nume melodie> → adaugă o melodie la începutul listei
+  2. ADD_LAST <nume melodie> → adaugă o melodie la finalul listei
+  3. ADD_AFTER <nume melodie> → adaugă o melodie după cursor
 
 * de eliminare:
-1. DEL_FIRST → șterge melodia de la începutul listei
-2. DEL_LAST → șterge melodia de la finalul listei
-3. DEL_CURR → șterge melodia curentă (melodia către care pointează cursorul)
-4. DEL_SONG <nume melodie> → șterge melodia, dacă aceasta există în listă
+  1. DEL_FIRST → șterge melodia de la începutul listei
+  2. DEL_LAST → șterge melodia de la finalul listei
+  3. DEL_CURR → șterge melodia curentă (melodia către care pointează cursorul)
+  4. DEL_SONG <nume melodie> → șterge melodia, dacă aceasta există în listă
 
 * de deplasare cursor:
-1. MOVE_NEXT → mută cursorul la următoarea melodie (dacă s-a ajuns la finalul
+  1. MOVE_NEXT → mută cursorul la următoarea melodie (dacă s-a ajuns la finalul
 listei, comanda este ignorată)
-2. MOVE_PREV → mută cursorul la melodia anterioară (dacă s-a ajuns la începutul
+  2. MOVE_PREV → mută cursorul la melodia anterioară (dacă s-a ajuns la începutul
 listei,
-3. comanda este ignorată)
+  3. comanda este ignorată)
 
 * de afisare:
-1. SHOW_FIRST → afișează informații despre melodia de la începutul listei
-2. SHOW_LAST → afișează informații despre melodia de la finalul listei
-3. SHOW_CURR → afișează informații despre melodia curentă (cea pe care este
+  1. SHOW_FIRST → afișează informații despre melodia de la începutul listei
+  2. SHOW_LAST → afișează informații despre melodia de la finalul listei
+  3. SHOW_CURR → afișează informații despre melodia curentă (cea pe care este
 setat cursorul)
-4. SHOW_PLAYLIST → afișează pentru toate melodiile din listă titlul
+  4. SHOW_PLAYLIST → afișează pentru toate melodiile din listă titlul
 
 Mai multe detalii despre enunt se pot gasi [aici](https://ocw.cs.pub.ro/courses/sd-ca/teme/tema1-2020).
 
